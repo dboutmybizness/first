@@ -19,7 +19,7 @@ app.config['SQLCHEMY_COMMIT_ON_TEARDOWN'] = True
 
 db = SQLAlchemy(app)
 
-app.config['SECRET_KEY'] = 'tsab11211'
+app.config['SECRET_KEY'] = 'FAKE_KEY'
 
 #models
 
